@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import TimerApp from './timer';
 import Temperature from './temperature';
+import ControlledVsUncontrolled  from './cu';
+import SimpleForm from './simpleform';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Temperature />
+    <SimpleForm />
   </React.StrictMode>
 );
 
